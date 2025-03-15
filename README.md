@@ -40,15 +40,19 @@ Saya Mochamad Zidan Rusdhiana dengan NIM 2305464 mengerjakan Tugas Praktikum 3 d
    - Mewarisi kelas ElectronicDevice
    - Mendefinisikan perangkat keras tambahan yang terhubung ke komputer untuk meningkatkan fungsionalitas
    - Berisi atribut-atribut dasar mengenai informasi perangkat periferal
+   - Memiliki abstract method displayPeripheralInfo() untuk menampilkan informasi perangkat
 10. **Keyboard**
     - Mewarisi kelas Peripheral, cucu dari ElectronicDevice atau hasil Multiple Inheritance
     - Berisi atribut-atribut spesifik terkait spesifikasi keyboard
+    - Mengimplementasikan method displayPeripheralInfo() untuk menampilkan informasi keyboard
 11. **Mouse**
     - Mewarisi kelas Peripheral, cucu dari ElectronicDevice
     - Berisi atribut-atribut spesifik terkait spesifikasi mouse
+    - Mengimplementasikan method displayPeripheralInfo() untuk menampilkan informasi keyboard
 12. **Monitor**
     - Mewarisi kelas Peripheral, cucu dari ElectronicDevice
     - Berisi atribut-atribut spesifik terkait spesifikasi monitor
+    - Mengimplementasikan method displayPeripheralInfo() untuk menampilkan informasi keyboard
 
 ### Sistem Komputer (Inheritance dan Composition)
 13. **Komputer**
@@ -59,12 +63,15 @@ Saya Mochamad Zidan Rusdhiana dengan NIM 2305464 mengerjakan Tugas Praktikum 3 d
     - Juga memiliki composite terhadap Peripheral
     - Atribut Ram, Harddrive, GraphicsCard dan Peripheral diimplementasikan sebagai list/vector karena komputer dapat memiliki beberapa komponen tersebut
     - List/vector Peripheral dibuat sebagai pointer karena yang akan digunakan adalah turunan dari kelas tersebut (Monitor, Mouse, Keyboard)
+    - Dilengkapi dengan method untuk menambahkan RAM, Harddrive, GraphicsCard, dan Peripheral
+    - Memiliki method untuk menghitung total RAM dan kapasitas penyimpanan pada komputer
 
 14. **Laptop**
     - Mewarisi kelas Komputer
     - Secara tidak langsung juga mewarisi ElectronicDevice (cucu dari ElectronicDevice)
     - Mewarisi seluruh komposisi yang ada pada kelas Komputer
     - Dilengkapi dengan atribut-atribut tambahan yang spesifik untuk laptop
+    - Memiliki method khusus untuk menghitung umur baterai (battery life)
 
 ## Dokumentasi
 ![image](https://github.com/user-attachments/assets/8cd72434-2ce0-4e42-b5f6-e5e5eed25076)
