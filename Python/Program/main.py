@@ -23,9 +23,9 @@ def main():
         Mouse("Optical", 16000, 6, True, "Logitech", "G Pro")
     ]
 
-    laptop = Laptop("Asus ROG Zephyrus G14", cpu, motherboard, [Ram(8, "DDR4", 1600, False, "Corsair", "Vengeance")], [harddrive, Harddrive(1024, "SSD", "Samsung", "Evo")], power_supply, [], [], "Ethernet", "Air Cooling", 14, "2560x1440", 6000, 1.6, True, False, True)
+    laptop = Laptop("Asus ROG Strix G15", cpu, motherboard, [Ram(8, "DDR4", 1600, False, "Corsair", "Vengeance")], [harddrive, Harddrive(1024, "SSD", "Samsung", "Evo")], power_supply, [], [], "Ethernet", "Air Cooling", 14, "2560x1440", 6000, 1.6, True, False, True)
 
-    komputer = Komputer("My favorite pc gw", cpu, motherboard, [ram1], [harddrive], power_supply, [gpu], peripherals, "Ethernet", "Liquid Cooling", "AC", 1000)
+    komputer = Komputer("PC Kentank", cpu, motherboard, [ram1], [harddrive], power_supply, [gpu], peripherals, "Ethernet", "Liquid Cooling", "AC", 1500)
     komputer.add_ram(Ram(16, "DDR5", 3200, True, "Kingston", "FURY"))
     komputer.add_harddrive(Harddrive(2048, "HDD", "Seagate", "Barracuda"))
     komputer.add_graphics_card(GraphicsCard(6, "GTX 1660", 1408, 1530, 1785, "GDDR5", 192, "Dual Fan", "MSI", "Gaming X"))
