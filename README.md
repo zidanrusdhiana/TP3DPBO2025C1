@@ -41,7 +41,7 @@ Saya Mochamad Zidan Rusdhiana dengan NIM 2305464 mengerjakan Tugas Praktikum 3 d
    - Mendefinisikan perangkat keras tambahan yang terhubung ke komputer untuk meningkatkan fungsionalitas
    - Berisi atribut-atribut dasar mengenai informasi perangkat periferal
 10. **Keyboard**
-    - Mewarisi kelas Peripheral, cucu dari ElectronicDevice
+    - Mewarisi kelas Peripheral, cucu dari ElectronicDevice atau hasil Multiple Inheritance
     - Berisi atribut-atribut spesifik terkait spesifikasi keyboard
 11. **Mouse**
     - Mewarisi kelas Peripheral, cucu dari ElectronicDevice
